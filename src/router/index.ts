@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'layout',
-    component: () => import('../layouts/default.vue'),
+    component: () => import('../layouts/index.vue'),
     redirect: '/home',
     children: [
       {

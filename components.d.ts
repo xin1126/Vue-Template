@@ -17,5 +17,6 @@ declare module '@vue/runtime-core' {
     ReduceCount: typeof import('./src/pages/about/components/ReduceCount.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Undefined: typeof import('./src/layouts/index.vue')['default']
   }
 }
