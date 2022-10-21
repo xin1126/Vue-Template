@@ -7,6 +7,14 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    About: typeof import('./src/pages/about/index.vue')['default']
+    AddCount: typeof import('./src/pages/about/components/AddCount.vue')['default']
+    Button: typeof import('./src/components/Button.vue')['default']
+    Default: typeof import('./src/layouts/default.vue')['default']
+    Footer: typeof import('./src/layouts/components/Footer.vue')['default']
+    Header: typeof import('./src/layouts/components/Header.vue')['default']
+    Home: typeof import('./src/pages/home/index.vue')['default']
+    ReduceCount: typeof import('./src/pages/about/components/ReduceCount.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

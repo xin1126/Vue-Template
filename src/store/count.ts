@@ -6,6 +6,9 @@ const useCountStore = defineStore('count', {
     setCount() {
       this.count++
     },
+    reduceCount() {
+      this.count--
+    },
   },
 })
 

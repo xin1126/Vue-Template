@@ -16,6 +16,7 @@ export default defineConfig({
       resolvers: [
         HeadlessUiResolver(),
       ],
+      dirs: ['src/components', 'src/pages', 'src/layouts'],
     }),
     AutoImport({
       imports: [
