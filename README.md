@@ -1,1 +1,1 @@
-# Vue3 + Vite + TypeScript + TailwindCSS 初始模板
+# Vue3 + Vite + TypeScript + TailwindCSS + Pinia 初始模板

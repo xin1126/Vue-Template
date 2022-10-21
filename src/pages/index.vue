@@ -6,5 +6,6 @@ const test = ref(0)
   <p @click="test++">
     Hello world!
   </p>
+  {{ count }}
   {{ test }}
 </template>
